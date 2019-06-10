@@ -1654,10 +1654,10 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/2.2.0": {
+      "Microsoft.Data.Sqlite.Core/2.2.4": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.11"
+          "SQLitePCLRaw.core": "1.1.12"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
@@ -1685,11 +1685,11 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/2.2.0": {
+      "Microsoft.EntityFrameworkCore/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.4",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
@@ -1706,7 +1706,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -1715,7 +1715,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {
         "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Design/2.2.0": {
@@ -1746,10 +1746,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.0"
+          "Microsoft.EntityFrameworkCore": "2.2.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -1758,11 +1758,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Sqlite/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.0",
-          "SQLitePCLRaw.bundle_green": "1.1.11"
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.4",
+          "SQLitePCLRaw.bundle_green": "1.1.12"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1771,11 +1771,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "2.2.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.Data.Sqlite.Core": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.4",
           "Microsoft.Extensions.DependencyModel": "2.1.0"
         },
         "compile": {
@@ -3013,14 +3013,14 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.11": {
+      "SQLitePCLRaw.bundle_green/1.1.12": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.11",
-          "SQLitePCLRaw.lib.e_sqlite3.linux": "1.1.11",
-          "SQLitePCLRaw.lib.e_sqlite3.osx": "1.1.11",
-          "SQLitePCLRaw.lib.e_sqlite3.v110_xp": "1.1.11",
-          "SQLitePCLRaw.provider.e_sqlite3.netstandard11": "1.1.11"
+          "SQLitePCLRaw.core": "1.1.12",
+          "SQLitePCLRaw.lib.e_sqlite3.linux": "1.1.12",
+          "SQLitePCLRaw.lib.e_sqlite3.osx": "1.1.12",
+          "SQLitePCLRaw.lib.e_sqlite3.v110_xp": "1.1.12",
+          "SQLitePCLRaw.provider.e_sqlite3.netstandard11": "1.1.12"
         },
         "compile": {
           "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {},
@@ -3031,7 +3031,7 @@
           "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.11": {
+      "SQLitePCLRaw.core/1.1.12": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -3043,7 +3043,7 @@
           "lib/netstandard1.1/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.11": {
+      "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.12": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -3082,7 +3082,7 @@
           }
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.11": {
+      "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.12": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -3097,7 +3097,7 @@
           }
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.11": {
+      "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.12": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -3120,11 +3120,11 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.11": {
+      "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.12": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.11"
+          "SQLitePCLRaw.core": "1.1.12"
         },
         "compile": {
           "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -4602,7 +4602,7 @@
   },
   "libraries": {
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
-      "sha512": "AIgEc1up4pvH8kXy+eG1x4Qfqd6piAq3yk11pveCQXWNkkYoiKdflSmcJZuWcerdMcAaoF0xC/mWGoTW4vF4Dg==",
+      "sha512": "91JMnE9zdIDphG00qgRvl8ZwKEjqAbNlJdfXUoMiIWPfpYyH7fyCsTSj6/aynRdw/Qr/K70xC7QC6MOJ1vFBJQ==",
       "type": "package",
       "path": "microsoft.aspnet.webapi.client/5.2.6",
       "files": [
@@ -5090,7 +5090,7 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Connections/1.1.0": {
-      "sha512": "JJuVSWAelUTM734UUSfMh5W555kVHggvFt7jUYSSSSWbZ36i0g0h3r+XrvJvZEykXhyhBAS1DloypsXh7Bgv7A==",
+      "sha512": "1tcdpPS18D6bg6Ou0FQW3ExWQor82ROMqoRUsVVxVehz2ZfY3SPVHf964VJiTBbodxQrzO0EMfpnjDxYYc7UFw==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.connections/1.1.0",
       "files": [
@@ -5118,7 +5118,7 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
-      "sha512": "lyEExtXdag+/tGhJVJgU6s2LOEUO3Uex4bDjN2RWuOYPe0l4rTDFv8B1WJO3EnnFrcCbbhATEc+3y3ntzSZKqw==",
+      "sha512": "wXfB68sp3X+6/TLUHVF5eiscn9iGptGEwjJyk4yBbbOAVJECE59/KUun6sT+JlNcNCWEWE0S7Ew+yMD6bm3rrQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.extensions/2.2.0",
       "files": [
@@ -5918,7 +5918,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Common/2.8.0": {
-      "sha512": "A2a4NejNvWVz+8FPXkZK/cd2j4/P3laHwpz56UU3fDcOAVu4Xb98T6FXGAIgqE/LzSVpHnn9Cgg7rhT59qsO8w==",
+      "sha512": "rMr3IN+DZq80ifRZnFr59j5KPbbUHaHOalfNBp4eIF0/tGiksHMTcGncHX56f2QvRembYUY3Qm1AHkOmEz2VZQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.common/2.8.0",
       "files": [
@@ -5932,7 +5932,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.CSharp/2.8.0": {
-      "sha512": "+GGCTxkBjf9lFEZhVOG4iEO5YkuWCO5q+kUF787NJ8Twy3EOyLrjtZ8K7q+kH/PnSjSkN0AvWwL2NQCmT1H6mA==",
+      "sha512": "lrINy11M50DAE58OYfLPmiDQ0CNpCYF6fnCiF1Q9pzhqRijfceEJ2s7ior5LP0DWP+YtvcYzMTstd2ujXqF4Vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.csharp/2.8.0",
       "files": [
@@ -6028,16 +6028,16 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/2.2.0": {
-      "sha512": "ilzTqbbDtiCgiQ28Ub+xbYTMtKKU7UOJFRKDFGPigX9O0gKjdjX9Ls5yZZYuTBvA1N8+SYyU2uVvOOburVkLww==",
+    "Microsoft.Data.Sqlite.Core/2.2.4": {
+      "sha512": "69DJj8bUJpXPfWpmJ/Sh165GWjLjlL516l0GnJDImabfR+leXb61HaQF97THWvyx5yY7MvpO94QW5nyiXMVOAA==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/2.2.0",
+      "path": "microsoft.data.sqlite.core/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.2.2.0.nupkg.sha512",
+        "microsoft.data.sqlite.core.2.2.4.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -6056,41 +6056,41 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/2.2.0": {
-      "sha512": "sShQ1XMPv3HS6UJjtUs8AsZ1hEFUzwRpeRP9uavrfkaoWGOXwe4Klt131A+i9+/drnzbbEdzrhFkUiMWbzc4cg==",
+    "Microsoft.EntityFrameworkCore/2.2.4": {
+      "sha512": "aQ0sAe2mOtSp3StjKT2wDA/BO3k8BLfpIXIG1MOlGytjQWQOvW3BzDPfgXOhxbSa7Bhdsx97aYzZUGD3DQAQjQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.2.0",
+      "path": "microsoft.entityframeworkcore/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
-      "sha512": "aBDhI9ltp7m4BaoH7LhH1p/DiO95rpAgDD09JX3W9VAmEgTaamXzlbc1W6BhQhs9ScMDbi5HoJw+LQCAVUfV9w==",
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.4": {
+      "sha512": "GjtIOANlpy7JcGK0Q169n52713hIHHfxUHq1+xoWlAZYSI0h/n2DrEWwCIsrnInU8FaLq4cIG7UgMTL0CnUUPw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/2.2.0",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
-      "sha512": "DYK/p3Fn7gz8bg8UelTRyJ9aH+i4bAQxeQ5YJTgCkNeTnyftHlw0ru1wZ/tUFlM27Cq2u5EYbvWBpefPo0izuw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {
+      "sha512": "cLJo6dikdFQd2j9cFHhC2M1rzUeYvJLR/m7cBcuKRI6ek5t5ZyGZ0hzEJwCQmKRDV4tAl5p+NIrfDjfqTK8POw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/2.2.0",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -6124,41 +6124,41 @@
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
-      "sha512": "JCmBWVP5ZJGC4eKQg2GYJs0W9RMQdSZ6jsWh9zZk2fuxpGJuVKTFy4eFAHq9dgKu7N07IW+CPkNBA8LthS3q0A==",
+    "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
+      "sha512": "Ga+kJhoSBNYv8C2gQl2sB5bTBkWsLFn92CPjZA5ql/MyxJTWri6lf44/GSYEcOQj0tqF5HhMAaB1HxQMiIPBcQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/2.2.0",
+      "path": "microsoft.entityframeworkcore.relational/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/2.2.0": {
-      "sha512": "OWY9LfFxr6p8PYdG+mh9VirwnrId8jMusH7/6F8VlsWviYmneMyZU9e7nkCgKECf5w/MTlf8Q8lSF9zcG5Q2zA==",
+    "Microsoft.EntityFrameworkCore.Sqlite/2.2.4": {
+      "sha512": "SfDyGsk8S+EN/VTli9zOSwzoPkNOTKJ1dzZtXKXZiaDb9OmDxW8mQsKPW8A1CTiZx+/2ACVb8Moc2Sw3cIt6xQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/2.2.0",
+      "path": "microsoft.entityframeworkcore.sqlite/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.sqlite.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.0": {
-      "sha512": "/shh6eS6gcLiFugYd5SXaQzEq187yo6c6OJ7VF93wPDoPJBXLslf6x1GFV4l39Vc28VETC0v56W2GpOzkbaNig==",
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.4": {
+      "sha512": "RezSS0Tli9yfjIJIrwyB334gHymL6/Oy9YM47NyE4kCT0eLkZjs4VKptnX6Pvl8+12oP1gTDvuYZhrhpxfOFoA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.0",
+      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.core.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
@@ -6518,7 +6518,7 @@
       ]
     },
     "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
-      "sha512": "lFYs3tCesMedXt/sUHIUlByH20qxi6DjSxOTyRvqT3YUMteqsVIGgjcF8zoVWMfvlv9/418Uk3eC3bFn8Qc+rA==",
+      "sha512": "Qt6sUa56/XbLxYshrCzwJYhHO9TkVa9Adch1qVqr7PGuLCxRs3K7nGMv3I6msUvAJqiJE33Oexz6KrT4hcUHgA==",
       "type": "package",
       "path": "microsoft.extensions.fileproviders.physical/2.2.0",
       "files": [
@@ -6622,7 +6622,7 @@
       ]
     },
     "Microsoft.Extensions.Localization.Abstractions/2.2.0": {
-      "sha512": "+hSkcuST/PvRHFfNUyVn/v0JreREgAfTVWaqNVoz9qrVw2pD1bw4Sq9B+TKl3qBT+7c2p+TAir54VtXcF9BzMg==",
+      "sha512": "RMybKFzUHKTiLGKOeDU1AX543ce5kHfn2CBwPeG1kbLo0YMtaR0nngPyFaL1lHv6TrrKWPCfO6p+45dyfPTGgQ==",
       "type": "package",
       "path": "microsoft.extensions.localization.abstractions/2.2.0",
       "files": [
@@ -7679,7 +7679,7 @@
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
+      "sha512": "guqHgQOK2eUgtJae2VKjNawBn1xjC0hfOt5wASHa60XHbIdCsQlqtvMsFG+3hy7yp88V+gi9fZCjubuDkeakcQ==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
@@ -7705,7 +7705,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "NS1U+700m4KFRHR5o4vo9DSlTmlCKu/u7dtE5sUHVIPB+xpXxYQvgBgA6wEIeCz6Yfn0Z52/72WYsToCEPJnrw==",
+      "sha512": "wWqB5kJ+vYC+IH7orP8EezottaOczECwYBFcecbkgG3IG6s8WghUdmM6pbUqSLhPibItxCWNg73rvG5cbL9tmw==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7757,7 +7757,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "X7IdhILzr4ROXd8mI1BUCQMSHSQwelUlBjF1JyTKCjXaOGn2fB4EKBxQbCK2VjO3WaWIdlXZL3W6TiIVnrhX4g==",
+      "sha512": "/p8IQT2brFMDa7BHMH71LV+w5Tb3OxoLHxhn6+MGqN5xeqhM2HRHmj+7xQGJnaRn73d7ZTvp6yRCFMvolws4wA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7866,10 +7866,10 @@
         "version.txt"
       ]
     },
-    "SQLitePCLRaw.bundle_green/1.1.11": {
-      "sha512": "HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
+    "SQLitePCLRaw.bundle_green/1.1.12": {
+      "sha512": "U5lZv+E0JBCG5uQngaRgyIAlbzIwRczb0m46XJfLGXovtfVOaMNRY/oGyKAJjdexVrfqLRd+JyopGMySpAZRGQ==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "path": "sqlitepclraw.bundle_green/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7909,14 +7909,14 @@
         "lib/wp8/_._",
         "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
         "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512",
+        "sqlitepclraw.bundle_green.1.1.12.nupkg.sha512",
         "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/1.1.11": {
-      "sha512": "bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
+    "SQLitePCLRaw.core/1.1.12": {
+      "sha512": "S4hr+tE275ran5jyKFW/FYPG6Bz6nsHUp9H8chqKxzk21PxJadLd9LnvLe6LMRP/IqY5+LOIIDQF3m/2iDlZ7Q==",
       "type": "package",
-      "path": "sqlitepclraw.core/1.1.11",
+      "path": "sqlitepclraw.core/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7935,14 +7935,14 @@
         "lib/win8/SQLitePCLRaw.core.dll",
         "lib/win81/SQLitePCLRaw.core.dll",
         "lib/wpa81/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.1.1.11.nupkg.sha512",
+        "sqlitepclraw.core.1.1.12.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.11": {
-      "sha512": "x5nuN19UdLgPKcP94lTuVSDTosDGIU3HAMmozd0VoLY5/dCgSl2Ru41Tz44IsAW33ylftboQlnVhahCtVR+3AA==",
+    "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.12": {
+      "sha512": "Tn/YE1VxWtHa4MQ9KC//ptIw6cLAUh+xXSdpX7MyGINmb4/igqyx0IOEq5WeH/+cuI/EnDtdWAOn98eMQnKsTQ==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.linux/1.1.11",
+      "path": "sqlitepclraw.lib.e_sqlite3.linux/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7957,14 +7957,14 @@
         "runtimes/linux-musl-x64/native/libe_sqlite3.so",
         "runtimes/linux-x64/native/libe_sqlite3.so",
         "runtimes/linux-x86/native/libe_sqlite3.so",
-        "sqlitepclraw.lib.e_sqlite3.linux.1.1.11.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.linux.1.1.12.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.linux.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.11": {
-      "sha512": "mjLRS9qb8JnKKHdowd3bSlOnEGSgGuXREBXHU8xecUlMCLoKMj7XEg7EDQeeu89aYGtSegLY95BRHnA9p0+q2g==",
+    "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.12": {
+      "sha512": "qfl1ljn6NOQDyM2i9JDZc6xekHoC+Fqe4GzuhWFCS6siI7lLInw09HHSZRqyimV36vjdQYnyBBFKSn53rSOYkA==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.osx/1.1.11",
+      "path": "sqlitepclraw.lib.e_sqlite3.osx/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7975,14 +7975,14 @@
         "lib/netstandard1.0/_._",
         "lib/netstandard2.0/_._",
         "runtimes/osx-x64/native/libe_sqlite3.dylib",
-        "sqlitepclraw.lib.e_sqlite3.osx.1.1.11.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.osx.1.1.12.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.osx.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.11": {
-      "sha512": "JvtHjNrd/est9wJitEiWx1O08XqBm4/l3Lhf01cFf9cIoNxhI+/idcYLMKS4XhewgaSHpuB1/Pi1W6VRjXrmIg==",
+    "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.12": {
+      "sha512": "YfmaVhcEyAGU6BZ7NQiYYfCHKsCYjldwsafiFKArzqeM8MHuhfqft1Fjdv7ncukXrvKsHXhCrzJzKEMwPXiSSg==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.v110_xp/1.1.11",
+      "path": "sqlitepclraw.lib.e_sqlite3.v110_xp/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7993,19 +7993,19 @@
         "runtimes/win-x64/native/e_sqlite3.dll",
         "runtimes/win-x86/native/e_sqlite3.dll",
         "runtimes/win8-arm/native/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.11.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.12.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.v110_xp.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.11": {
-      "sha512": "fvDbTA/2+A3sfLlXYXOHKIFP/ZcL8yQJnr+VxwyCy2BPK2jLZg3XXStc1AokU5uC+dCDl5k3bpCiBdqYU1bz6g==",
+    "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.12": {
+      "sha512": "qjz6Ad1Q5hiI8imCiG5Mpa/w8E8+rAk3SRJdX54uEOo5nPywiN1H0jmMZO+ID0nPibQA3yjlAHt5/GcLW9Iftg==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.11",
+      "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.11.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.12.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.netstandard11.nuspec"
       ]
     },
@@ -8227,7 +8227,7 @@
       ]
     },
     "System.Collections.Immutable/1.5.0": {
-      "sha512": "RGxi2aQoXgZ5ge0zxrKqI4PU9LrYYoLC+cnEnWXKsSduCOUhE1GEAAoTexUVT8RZOILQyy1B27HC8Xw/XLGzdQ==",
+      "sha512": "T5XGQlcHhEO75Qx38GGCUDPdk4n/7yrRmTgy4yczzJV8alPHaxPU55TBC2UFrkQ42bu34sZPfK0dU+nWZUOEJA==",
       "type": "package",
       "path": "system.collections.immutable/1.5.0",
       "files": [
@@ -8250,7 +8250,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "/D3jtX0+u5+6rS3RGvTMyICPpIuzBgqtUYLjK1aXLua0nWH4JpM1H/tRk1Uxs6Fo0fe22jyJaTpoXPSu0il8Ug==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -8527,7 +8527,7 @@
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
-      "sha512": "clL6acqvIbbx3JYunlkrWV5sP9qGd0sLl612eXrBVVwakTTlMNtvZB5RiC2rU2uYxSnIt2ssUQgA2adrYSqYhA==",
+      "sha512": "eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
@@ -8679,7 +8679,7 @@
       ]
     },
     "System.Diagnostics.FileVersionInfo/4.3.0": {
-      "sha512": "OEshwk5wkdxtGkFZYSErv6dnUuz0z8C01htylGwOwFnCVFRcrvleBtplMDCk9nMyWP41cbMZGEIBfy7HV1Loug==",
+      "sha512": "omCF64wzQ3Q2CeIqkD6lmmxeMZtGHUmzgFMPjfVaOsyqpR66p/JaZzManMw1s33osoAb5gqpncsjie67+yUPHQ==",
       "type": "package",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
@@ -9650,7 +9650,7 @@
       ]
     },
     "System.Net.Http/4.3.0": {
-      "sha512": "Z1UfSF6dlpCdZdxh6LeoGlYH+q6ptG/iiIWgUUeKhE3DbQACmZkU7Sz2nOX0qdHjz72MOdYRbkSJ5Qwl6sZgvg==",
+      "sha512": "6BBc6BUa7pWFL7KUI/c8wb18IobTZHTtcQKksxJI5F9DRDShdtOvBEJzg5jJbFdTll7gRE+5yXUlq72ciLE+QQ==",
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
@@ -9944,7 +9944,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.3.0": {
-      "sha512": "wEjvYddMMRV04qSvr/3+v9YsjnYKjxR6riG749gI5DdqXKvJtAKJSfXDxefu7TxlKvGiufQd6mVsI/NMmBIg8A==",
+      "sha512": "yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
@@ -10892,7 +10892,7 @@
       ]
     },
     "System.Runtime.Serialization.Xml/4.3.0": {
-      "sha512": "v5BPUVQNkxkHh80Lhe8YM3iVSN0zYP5Xm9Zw47aoSu6+SyRGbGbEC6i/Vq3gUufIjPSgi16fs1wBLEZNU9zXyQ==",
+      "sha512": "nUQx/5OVgrqEba3+j7OdiofvVq9koWZAC7Z3xGI8IIViZqApWnZ5+lLcwYgTlbkobrl/Rat+Jb8GeD4WQESD2A==",
       "type": "package",
       "path": "system.runtime.serialization.xml/4.3.0",
       "files": [
@@ -11084,7 +11084,7 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
-      "sha512": "O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+      "sha512": "DsHSZoBeVe2bAknPwdrgnCQlgd80XRcS8V3ev952BF8ZE4jUi2i7+tIaFth6md9nure1SJL2hfQt4IgjpNybxQ==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
       "files": [
@@ -11218,7 +11218,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -11349,7 +11349,7 @@
       ]
     },
     "System.Security.Cryptography.Xml/4.5.0": {
-      "sha512": "X+/taLXTKYziKvWE4ZEyhpY0QQ17fm9eW70cvMCE6LAsWYqdv708i0HJeSVy7/5R5547GR/CEGOjUkYq6bJfPg==",
+      "sha512": "UvxfrEg7YG7U6BQO8WdQ4Nu1LFt2lqYQnoZefaK/2RDvjYdJ+norsVe4dwOqo14XiipgYY5xNUo6VhQXNbl2vg==",
       "type": "package",
       "path": "system.security.cryptography.xml/4.5.0",
       "files": [
@@ -11370,7 +11370,7 @@
       ]
     },
     "System.Security.Permissions/4.5.0": {
-      "sha512": "O+e9qamSTJ4YOJCpnLgsf9FTGfsxJv2On1OdYkhmd/XA5AYRvUatkz7Rp3dS9XR7rhVuklnjST1dRoMK7N4cGw==",
+      "sha512": "vDQ7q30Soe0a1cPhvxn+7IFmMeTG5IP+hTQrnKQDjTNpD2epqwbZSzMM2Git5TXBr4Kwwhc/0SEtJY0qPoiegA==",
       "type": "package",
       "path": "system.security.permissions/4.5.0",
       "files": [
@@ -11449,7 +11449,7 @@
       ]
     },
     "System.Security.Principal.Windows/4.5.0": {
-      "sha512": "WA9ETb/pY3BjnxKjBUHEgO59B7d/nnmjHFsqjJ2eDT780nD769CT1/bw2ia0Z6W7NqlcqokE6sKGKa6uw88XGA==",
+      "sha512": "hs2zF4tOQ3V4iQttVnLrnR/i8AOrrAgu2Gmp4/jNaE/+5hiZWDj20FK/m/OW3Itdi9XDvqf55WzHkiWYtOSUNg==",
       "type": "package",
       "path": "system.security.principal.windows/4.5.0",
       "files": [
@@ -11973,7 +11973,7 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "Wn3GV5YIWjxvv9muD9FSZxH4PLx98Y4D1Z5mpYTowK1RLPtFvusnVKnT0OzmzEpYCMtVNgqfk3kPc9xRGsWrLA==",
+      "sha512": "cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
@@ -12225,7 +12225,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
-      "sha512": "xsnq6w3/S+NeYkUtxoCEDAn2Z+AkgvGLvJnslrTRte4jEU+fkR3DVG+s0sBmQYQ4c3r8949PaGg8AnRb9bBc2w==",
+      "sha512": "lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
@@ -12264,7 +12264,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "kwo6Kf+0jjEcmB+S2BI5SL0xHHRIBd0Cjf11BGliuZ3Va9V1hDbKZmq0mb7HO8QPlYYrq8eNToOzipfw6ARKEw==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -12335,7 +12335,7 @@
       ]
     },
     "System.Xml.XPath/4.3.0": {
-      "sha512": "8Eo7vuasWRqXfiBRCIKz20Rq1h6n+NMp6nW2RmyUwF4VDekg8xbRZu8S3N21P5XGAhv+kaqUwI3xydEkcw+D5w==",
+      "sha512": "v1JQ5SETnQusqmS3RwStF7vwQ3L02imIzl++sewmt23VGygix04pEH+FCj1yWb+z4GDzKiljr1W7Wfvrx0YwgA==",
       "type": "package",
       "path": "system.xml.xpath/4.3.0",
       "files": [
@@ -12416,7 +12416,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.4",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -12427,11 +12427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\code\\todos-backend\\todos-backend.csproj",
+      "projectUniqueName": "c:\\Users\\Daniel\\Documents\\code\\todos-backend\\todos-backend.csproj",
       "projectName": "todos-backend",
-      "projectPath": "C:\\Users\\Daniel\\Documents\\code\\todos-backend\\todos-backend.csproj",
+      "projectPath": "c:\\Users\\Daniel\\Documents\\code\\todos-backend\\todos-backend.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Documents\\code\\todos-backend\\obj\\",
+      "outputPath": "c:\\Users\\Daniel\\Documents\\code\\todos-backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12472,7 +12472,7 @@
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "[2.2.4, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
